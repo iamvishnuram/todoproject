@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+    color: aliceblue;
+    position: relative;
+    
+}
+input[type="submit"]
+{
+    position: relative;
+    left: 40%;
+    
+}
+.card-text{
+    color: black;
+}
+.card-title{
+    color: black;
+}
+.card{
+    text-align: left;
+    
+}
+.col-md-6{
+    padding-left: 250px;
+    padding-top: 5%;
+
+}
+.container-fluid {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.submit {
+    display: flex;
+    float: left;
+}
+#priority {
+    background-color: red;
+}

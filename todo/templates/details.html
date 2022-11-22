@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block body %}
+
+    <h4>-Tasks to be Completed-</h4>
+ 
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-text">Priority: {{task.priority}}</h5>
+          <h5 class="card-title">Task: {{task.name}}</h5>
+          <h5 class="card-text">Planned on: {{task.date}}</h5>
+          <a href="{% url 'todoapp:delete' task.id %}" class="btn btn-danger">Done</a>
+          <a href="{% url 'todoapp:update' task.id %}" class="btn btn-success">Update</a>
+        </div>
+      </div>
+      <br>
+</div> 
+
+{% endblock body %}
+
+
